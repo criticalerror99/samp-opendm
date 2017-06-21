@@ -4,13 +4,13 @@
 #include <sscanf>
 #include <zcmd>
 #include <md5>
+#include <y_va>
 
 enum {
 	DIALOG_LANGUAGE,
 	DIALOG_LOGIN,
 	DIALOG_REGISTER,
 }
-
 
 #include OpenDM\colors.inc
 #include OpenDM\var.inc
@@ -22,12 +22,23 @@ enum {
 
 // MySQL Database
 #define HOST "127.0.0.1"
-#define USER "root"
+#define USER "opendm"
 #define PASSWORD "opendm"
 #define DB "opendm"
 
 main() {
 
+}
+
+m_query(string[], {Float, _}:...)
+{
+	if(numargs() > 1)
+	{
+		new out[1024];
+		va_format(out, sizeof out, string, va_start<1>);
+		return mysql_query(out);
+	}
+	return mysql_query(string);
 }
 
 public OnGameModeInit()
@@ -68,7 +79,24 @@ public SetPlayerVars(playerid) {
 }
 
 forward ShowLogin(playerid);
-public ShowLogin(playerid) return ShowDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, ""C_GREEN"Log in", ""C_GREEN"Logowanie", ""C_WHITE"Wpisz has³o do swojego konta, aby rozpocz¹æ grê.", ""C_WHITE"Enter your password to continue.", "Log in", "Zaloguj", "Exit", "WyjdŸ");
+public ShowLogin(playerid) {
+	new temp = 0, sql[1024];
+	m_query("SELECT lang FROM players WHERE userid = %d", Player[playerid][ID]);
+	mysql_store_result();
+	mysql_fetch_row(sql, " ");
+	mysql_free_result();
+	sscanf(sql, "i", temp);
+	new inforegister[144];
+	if(temp == 0) {
+		Player[playerid][IsPL] = false;
+	 	format(inforegister, sizeof(inforegister), ""C_GREEN"Your account are found in database. Log in to play."); }
+	else {
+		format(inforegister, sizeof(inforegister), ""C_GREEN"To konto znajduje siê w bazie danych. Zaloguj siê, aby rozpocz¹æ grê.");
+		Player[playerid][IsPL] = true; }
+	if(!informed[playerid]) {
+		MultiMessage(playerid, inforegister, inforegister);
+		informed[playerid] = true; }
+	return ShowDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, ""C_GREEN"Log in", ""C_GREEN"Logowanie", ""C_WHITE"Enter your password to continue.", ""C_WHITE"Wpisz has³o do swojego konta, aby rozpocz¹æ grê.", "Log in", "Zaloguj", "Exit", "WyjdŸ"); }
 
 forward ShowRegister(playerid);
 public ShowRegister(playerid) { return ShowDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, ""C_GREEN"Register", ""C_GREEN"Rejestracja", ""C_WHITE"Enter password to your account.", ""C_WHITE"Zarejestruj konto wpisuj¹c has³o.", "Register", "Zarejestruj", "Exit", "WyjdŸ"); }
@@ -82,25 +110,31 @@ public ShowDialog(playerid, dialogid, style, captionen[], captionpl[], infoen[],
 public OnPlayerConnect(playerid)
 {
 	SetPlayerVars(playerid);
-	GetPlayerName(playerid, Player[playerid][Name], 20);
-	new checkstr[1024], checkaccount[1024];
-	format(checkstr, sizeof(checkstr), "SELECT * FROM players WHERE name = %s", Player[playerid][Name]);
-	mysql_query(checkstr);
-	if(mysql_num_rows() > 0) {
+
+	new name[20], ip[16];
+	GetPlayerName(playerid, name, sizeof(name));
+	GetPlayerIp(playerid, ip, sizeof(ip));
+
+	format(Player[playerid][Name], 20, "%s", name);
+	format(Player[playerid][IP], 16, "%s", ip);
+	new checkaccount[1024];
+	m_query("SELECT userid FROM players WHERE name = '%s'", name);
+	mysql_store_result();
+	new konta = mysql_num_rows();
+	if(konta > 0) {
 		Player[playerid][accountfound] = true;
 		mysql_free_result();
+		m_query("SELECT userid, score, cash, pass FROM players WHERE name = '%s'", name);
+		mysql_store_result();
+		mysql_fetch_row(checkaccount, " ");
+		mysql_free_result();
+		sscanf(checkaccount, "iiis[128]", Player[playerid][ID], Player[playerid][Score], Player[playerid][Cash], Player[playerid][Pass]);
 	 	ShowLogin(playerid); }
-	else Player[playerid][accountfound] = false;
-	if(!Player[playerid][accountfound]) {
-		ShowPlayerDialog(playerid, DIALOG_LANGUAGE, DIALOG_STYLE_LIST, ""C_WHITE"Select language", ""C_WHITE"English (EN)\nPolski (PL)", "Select", "Skip");
-	}
+	else {
+		mysql_free_result();
+		Player[playerid][accountfound] = false; }
+	if(!Player[playerid][accountfound]) ShowPlayerDialog(playerid, DIALOG_LANGUAGE, DIALOG_STYLE_LIST, ""C_WHITE"Select language", ""C_WHITE"English (EN)\nPolski (PL)", "Select", "Skip");
 	MultiMessage(playerid, "["C_GREEN""GM_NAME" "GM_VERSION""C_WHITE"] Gamemode compiled by "C_GREEN""GM_AUTHOR""C_WHITE".", "["C_GREEN""GM_NAME" "GM_VERSION""C_WHITE"] Gamemode skompilowany przez "C_GREEN""GM_AUTHOR""C_WHITE".");
-	if(Player[playerid][accountfound]) {
-		new inforegister[144];
-		if(Player[playerid][IsPL]) format(inforegister, sizeof(inforegister), ""C_GREEN"To konto znajduje siê w bazie danych. Zaloguj siê, aby rozpocz¹æ grê.");
-		else format(inforegister, sizeof(inforegister), ""C_GREEN"Your account are found in database. Log in to play.");
-		return MultiMessage(playerid, inforegister, inforegister);
-	}
 	return 1;
 }
 
@@ -118,12 +152,39 @@ public MultiMessage(playerid, en[], pl[]) {
 	return 1;
 }
 
+stock SetPlayerMoney(playerid, cash) {
+  ResetPlayerMoney(playerid);
+  return GivePlayerMoney(playerid, cash); }
+
+	stock CompareEx(comp[], with[]) //By: Fl0rian
+	{
+		new LenghtComp = strlen(comp);
+		new LenghtWith = strlen(with);
+		new Character;
+
+		if( LenghtComp != LenghtWith ) return false;
+
+		for( new i = 0; i < LenghtComp; i++ )
+		{
+		    if( comp[i] == with[i] )
+		    {
+		        Character++;
+			}
+		}
+
+		if( LenghtComp == Character ) return true;
+		return false;
+	}
+
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid) {
-		case DIALOG_LANGUAGE: {
-			switch(listitem) {
-				case 0: {
+		case DIALOG_LANGUAGE:
+		{
+			switch(listitem)
+			{
+				case 0:
+				{
 					if(!Player[playerid][IsPL] && Player[playerid][logged]) return ShowError(playerid, "You already selected this language.", "Aktualnie masz wybrany ten jêzyk.");
 					SendClientMessage(playerid, -1, ""C_GREEN"Selected "C_WHITE"English (EN) "C_GREEN"language.");
 					if(Player[playerid][IsPL]) Player[playerid][IsPL] = false;
@@ -132,9 +193,10 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						new inforegister[144];
 						if(Player[playerid][IsPL]) format(inforegister, sizeof(inforegister), ""C_GREEN"Nie znaleŸliœmy konta z Twoim nickiem. Zarejestruj siê, aby rozpocz¹æ grê.");
 						else format(inforegister, sizeof(inforegister), ""C_GREEN"Your account are not found in database. Register to play.");
-						MultiMessage(playerid, inforegister, inforegister);
-					} }
-				case 1: {
+						MultiMessage(playerid, inforegister, inforegister); }
+				}
+				case 1:
+				{
 					if(Player[playerid][IsPL]) return ShowError(playerid, "You already selected this language.", "Aktualnie masz wybrany ten jêzyk.");
 					SendClientMessage(playerid, -1, ""C_GREEN"Wybra³eœ jêzyk "C_WHITE"Polski (PL)"C_GREEN".");
 					if(!Player[playerid][IsPL]) Player[playerid][IsPL] = true;
@@ -143,8 +205,50 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						new inforegister[144];
 						if(Player[playerid][IsPL]) format(inforegister, sizeof(inforegister), ""C_GREEN"Nie znaleŸliœmy konta z Twoim nickiem. Zarejestruj siê, aby rozpocz¹æ grê.");
 						else format(inforegister, sizeof(inforegister), ""C_GREEN"Your account are not found in database. Register to play.");
-						MultiMessage(playerid, inforegister, inforegister);
-					} } } } }
+						MultiMessage(playerid, inforegister, inforegister); }
+				}
+			}
+		}
+		case DIALOG_LOGIN:
+		{
+			if (!response) {
+				Kick(playerid);
+				return 1; }
+
+
+			if (CompareEx(MD5_Hash(inputtext), Player[playerid][Pass])) {
+				Player[playerid][logged] = true;
+
+				SetPlayerMoney(playerid, Player[playerid][Cash]);
+				SetPlayerScore(playerid, Player[playerid][Score]);
+
+				return MultiMessage(playerid, ""C_GREEN"Succesfully logged!", ""C_GREEN"Zosta³eœ zalogowany pomyœlnie."); }
+			else {
+				ShowError(playerid, "Entered invalid password.", "Wprowadzone has³o jest nieprawid³owe.");
+				return ShowLogin(playerid); }
+
+			}
+		case DIALOG_REGISTER:
+		{
+			if (!response) {
+				Kick(playerid);
+				return 1; }
+
+			if (strlen(inputtext) <= 6 || strlen(inputtext) >= 32) {
+				ShowError(playerid, "Password is too short or too long.", "Podane has³o jest za krótkie lub za d³ugie.");
+				return ShowDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, ""C_GREEN"Register", ""C_GREEN"Rejestracja", ""C_WHITE"Enter password to your account.", ""C_WHITE"Zarejestruj konto wpisuj¹c has³o.", "Register", "Zarejestruj", "Exit", "WyjdŸ"); }
+			mysql_real_escape_string(inputtext, inputtext);
+			m_query("SELECT userid FROM players");
+			mysql_store_result();
+			new users = mysql_num_rows();
+			mysql_free_result();
+			format(Player[playerid][Pass], 65, "%s", MD5_Hash(inputtext));
+			Player[playerid][ID] = users;
+			Player[playerid][logged] = true;
+			m_query("INSERT INTO players (userid, name, ip, lang, pass) VALUES (%d, '%s', '%s', %d, '%s')", users, Player[playerid][Name], Player[playerid][IP], Player[playerid][IsPL], Player[playerid][Pass]);
+			return MultiMessage(playerid, ""C_GREEN"Succesfully registered!", ""C_GREEN"Zosta³eœ zarejestrowany pomyœlnie.");
+		}
+	}
 	return 1;
 }
 
