@@ -1,0 +1,120 @@
+[Wed Jun 21 12:07:00 2017] -------------------------
+[Wed Jun 21 12:07:00 2017]      Logging Started
+[Wed Jun 21 12:07:00 2017] -------------------------
+[Wed Jun 21 12:07:42 2017] -------------------------
+[Wed Jun 21 12:07:42 2017]      Logging Started
+[Wed Jun 21 12:07:42 2017] -------------------------
+[Wed Jun 21 12:13:36 2017] -------------------------
+[Wed Jun 21 12:13:36 2017]      Logging Started
+[Wed Jun 21 12:13:36 2017] -------------------------
+[Wed Jun 21 12:17:28 2017] -------------------------
+[Wed Jun 21 12:17:28 2017]      Logging Started
+[Wed Jun 21 12:17:28 2017] -------------------------
+[Wed Jun 21 12:18:07 2017] -------------------------
+[Wed Jun 21 12:18:07 2017]      Logging Started
+[Wed Jun 21 12:18:07 2017] -------------------------
+[Wed Jun 21 12:18:21 2017] -------------------------
+[Wed Jun 21 12:18:21 2017]      Logging Started
+[Wed Jun 21 12:18:21 2017] -------------------------
+[Wed Jun 21 12:18:50 2017] -------------------------
+[Wed Jun 21 12:18:50 2017]      Logging Started
+[Wed Jun 21 12:18:50 2017] -------------------------
+[Wed Jun 21 12:19:26 2017] -------------------------
+[Wed Jun 21 12:19:26 2017]      Logging Started
+[Wed Jun 21 12:19:26 2017] -------------------------
+[Wed Jun 21 12:23:17 2017] -------------------------
+[Wed Jun 21 12:23:17 2017]      Logging Started
+[Wed Jun 21 12:23:17 2017] -------------------------
+[Wed Jun 21 12:24:04 2017] -------------------------
+[Wed Jun 21 12:24:04 2017]      Logging Started
+[Wed Jun 21 12:24:04 2017] -------------------------
+[Wed Jun 21 12:25:11 2017] -------------------------
+[Wed Jun 21 12:25:11 2017]      Logging Started
+[Wed Jun 21 12:25:11 2017] -------------------------
+[Wed Jun 21 12:26:10 2017] -------------------------
+[Wed Jun 21 12:26:10 2017]      Logging Started
+[Wed Jun 21 12:26:10 2017] -------------------------
+[Wed Jun 21 12:31:30 2017] -------------------------
+[Wed Jun 21 12:31:30 2017]      Logging Started
+[Wed Jun 21 12:31:30 2017] -------------------------
+[Wed Jun 21 12:31:31 2017] Error (0): Failed to connect. Can't connect to MySQL server on '127.0.0.1' (10061).
+[Wed Jun 21 12:31:31 2017] -------------------------
+[Wed Jun 21 12:31:31 2017]       Logging Ended
+[Wed Jun 21 12:31:31 2017] -------------------------
+[Wed Jun 21 12:44:26 2017] -------------------------
+[Wed Jun 21 12:44:26 2017]      Logging Started
+[Wed Jun 21 12:44:26 2017] -------------------------
+[Wed Jun 21 12:44:27 2017] Error (0): Failed to connect. Can't connect to MySQL server on '127.0.0.1' (10061).
+[Wed Jun 21 12:44:27 2017] -------------------------
+[Wed Jun 21 12:44:27 2017]       Logging Ended
+[Wed Jun 21 12:44:27 2017] -------------------------
+[Wed Jun 21 12:44:51 2017] -------------------------
+[Wed Jun 21 12:44:51 2017]      Logging Started
+[Wed Jun 21 12:44:51 2017] -------------------------
+[Wed Jun 21 12:44:51 2017] Error (0): Failed to connect. Access denied for user 'root'@'localhost' (using password: YES).
+[Wed Jun 21 12:44:51 2017] -------------------------
+[Wed Jun 21 12:44:51 2017]       Logging Ended
+[Wed Jun 21 12:44:51 2017] -------------------------
+[Wed Jun 21 12:46:56 2017] -------------------------
+[Wed Jun 21 12:46:56 2017]      Logging Started
+[Wed Jun 21 12:46:56 2017] -------------------------
+[Wed Jun 21 12:46:56 2017] Error (0): Failed to connect. Access denied for user 'root'@'localhost' (using password: YES).
+[Wed Jun 21 12:46:56 2017] -------------------------
+[Wed Jun 21 12:46:56 2017]       Logging Ended
+[Wed Jun 21 12:46:56 2017] -------------------------
+[Wed Jun 21 12:49:38 2017] -------------------------
+[Wed Jun 21 12:49:38 2017]      Logging Started
+[Wed Jun 21 12:49:38 2017] -------------------------
+[Wed Jun 21 12:49:39 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 12:49:39 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:11:53 2017] -------------------------
+[Wed Jun 21 13:11:53 2017]      Logging Started
+[Wed Jun 21 13:11:53 2017] -------------------------
+[Wed Jun 21 13:11:53 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:11:53 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:12:17 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:12:17 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:19:19 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:19:19 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:19:19 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:19:19 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:36:33 2017] -------------------------
+[Wed Jun 21 13:36:33 2017]      Logging Started
+[Wed Jun 21 13:36:33 2017] -------------------------
+[Wed Jun 21 13:36:33 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:36:33 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:36:41 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:36:41 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:44:24 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:44:24 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:44:24 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:44:24 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:46:34 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:46:34 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:46:34 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:46:34 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:56:37 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:56:37 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:56:37 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:56:37 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:57:13 2017] -------------------------
+[Wed Jun 21 13:57:13 2017]      Logging Started
+[Wed Jun 21 13:57:13 2017] -------------------------
+[Wed Jun 21 13:57:13 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:57:13 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:57:25 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:57:25 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:57:41 2017] -------------------------
+[Wed Jun 21 13:57:41 2017]      Logging Started
+[Wed Jun 21 13:57:41 2017] -------------------------
+[Wed Jun 21 13:57:41 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:57:41 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:57:50 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:57:50 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:58:35 2017] -------------------------
+[Wed Jun 21 13:58:35 2017]      Logging Started
+[Wed Jun 21 13:58:35 2017] -------------------------
+[Wed Jun 21 13:58:35 2017] Connected (0) to root @ 127.0.0.1 via TCP/IP.
+[Wed Jun 21 13:58:35 2017] MySQL Server Version 5.5.5-10.1.22-MariaDB.
+[Wed Jun 21 13:58:53 2017] Error (0): Failed to exeute query. Unknown column 'critical' in 'where clause'.
+[Wed Jun 21 13:58:53 2017] Error (0): Function: mysql_num_rows called when no result stored. Unknown column 'critical' in 'where clause'.

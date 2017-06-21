@@ -1,0 +1,1326 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:40] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:45] 
+[12:04:45] Server Plugins
+[12:04:45] --------------
+[12:04:45]  Loading plugin: mysql
+[12:04:45]   Failed.
+[12:04:45]  Loaded 0 plugins.
+
+[12:04:45] 
+[12:04:45] Filterscripts
+[12:04:45] ---------------
+[12:04:45]   Loading filterscript 'gl_actions.amx'...
+[12:04:45]   Unable to load filterscript 'gl_actions.amx'.
+[12:04:45]   Loading filterscript 'gl_realtime.amx'...
+[12:04:45]   Unable to load filterscript 'gl_realtime.amx'.
+[12:04:45]   Loading filterscript 'gl_property.amx'...
+[12:04:45]   Unable to load filterscript 'gl_property.amx'.
+[12:04:45]   Loading filterscript 'gl_mapicon.amx'...
+[12:04:45]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:04:45]   Loading filterscript 'ls_elevator.amx'...
+[12:04:45]   Unable to load filterscript 'ls_elevator.amx'.
+[12:04:45]   Loading filterscript 'attachments.amx'...
+[12:04:45]   Unable to load filterscript 'attachments.amx'.
+[12:04:45]   Loading filterscript 'skinchanger.amx'...
+[12:04:45]   Unable to load filterscript 'skinchanger.amx'.
+[12:04:45]   Loading filterscript 'vspawner.amx'...
+[12:04:45]   Unable to load filterscript 'vspawner.amx'.
+[12:04:45]   Loading filterscript 'ls_mall.amx'...
+[12:04:45]   Unable to load filterscript 'ls_mall.amx'.
+[12:04:45]   Loading filterscript 'ls_beachside.amx'...
+[12:04:45]   Unable to load filterscript 'ls_beachside.amx'.
+[12:04:45]   Loaded 0 filterscripts.
+
+[12:04:45] Loaded 3 vehicles from: vehicles/trains.txt
+[12:04:45] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:04:45] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:04:45] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:04:45] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:04:45] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:04:45] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:04:45] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:04:45] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:04:45] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:04:45] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:04:45] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:04:45] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:04:45] Loaded 168 vehicles from: vehicles/bone.txt
+[12:04:45] Loaded 61 vehicles from: vehicles/flint.txt
+[12:04:45] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:04:45] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:04:45] Total vehicles from files: 1781
+[12:04:45] 
+---------------------------------------
+[12:04:45] Running Grand Larceny - by the SA-MP team
+
+[12:04:45] ---------------------------------------
+
+[12:04:45] Number of vehicle models: 173
+[12:04:50] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:54] 
+[12:04:54] Server Plugins
+[12:04:54] --------------
+[12:04:54]  Loading plugin: mysql.dll
+[12:04:54]   Failed.
+[12:04:54]  Loaded 0 plugins.
+
+[12:04:54] 
+[12:04:54] Filterscripts
+[12:04:54] ---------------
+[12:04:54]   Loading filterscript 'gl_actions.amx'...
+[12:04:54]   Unable to load filterscript 'gl_actions.amx'.
+[12:04:54]   Loading filterscript 'gl_realtime.amx'...
+[12:04:54]   Unable to load filterscript 'gl_realtime.amx'.
+[12:04:54]   Loading filterscript 'gl_property.amx'...
+[12:04:54]   Unable to load filterscript 'gl_property.amx'.
+[12:04:54]   Loading filterscript 'gl_mapicon.amx'...
+[12:04:54]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:04:54]   Loading filterscript 'ls_elevator.amx'...
+[12:04:54]   Unable to load filterscript 'ls_elevator.amx'.
+[12:04:54]   Loading filterscript 'attachments.amx'...
+[12:04:54]   Unable to load filterscript 'attachments.amx'.
+[12:04:54]   Loading filterscript 'skinchanger.amx'...
+[12:04:54]   Unable to load filterscript 'skinchanger.amx'.
+[12:04:54]   Loading filterscript 'vspawner.amx'...
+[12:04:54]   Unable to load filterscript 'vspawner.amx'.
+[12:04:54]   Loading filterscript 'ls_mall.amx'...
+[12:04:54]   Unable to load filterscript 'ls_mall.amx'.
+[12:04:54]   Loading filterscript 'ls_beachside.amx'...
+[12:04:54]   Unable to load filterscript 'ls_beachside.amx'.
+[12:04:54]   Loaded 0 filterscripts.
+
+[12:04:54] Loaded 3 vehicles from: vehicles/trains.txt
+[12:04:54] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:04:54] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:04:54] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:04:54] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:04:54] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:04:54] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:04:54] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:04:54] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:04:54] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:04:54] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:04:54] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:04:54] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:04:54] Loaded 168 vehicles from: vehicles/bone.txt
+[12:04:54] Loaded 61 vehicles from: vehicles/flint.txt
+[12:04:54] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:04:54] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:04:54] Total vehicles from files: 1781
+[12:04:54] 
+---------------------------------------
+[12:04:54] Running Grand Larceny - by the SA-MP team
+
+[12:04:54] ---------------------------------------
+
+[12:04:54] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:07:00] 
+[12:07:00] Server Plugins
+[12:07:00] --------------
+[12:07:00]  Loading plugin: mysql.dll
+[12:07:00]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:07:00]   Loaded.
+[12:07:00]  Loaded 1 plugins.
+
+[12:07:00] [MySQL] Thread running. Threadsafe: Yes.
+[12:07:00] 
+[12:07:00] Filterscripts
+[12:07:00] ---------------
+[12:07:00]   Loading filterscript 'gl_actions.amx'...
+[12:07:00]   Unable to load filterscript 'gl_actions.amx'.
+[12:07:00]   Loading filterscript 'gl_realtime.amx'...
+[12:07:00]   Unable to load filterscript 'gl_realtime.amx'.
+[12:07:00]   Loading filterscript 'gl_property.amx'...
+[12:07:00]   Unable to load filterscript 'gl_property.amx'.
+[12:07:00]   Loading filterscript 'gl_mapicon.amx'...
+[12:07:00]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:07:00]   Loading filterscript 'ls_elevator.amx'...
+[12:07:00]   Unable to load filterscript 'ls_elevator.amx'.
+[12:07:00]   Loading filterscript 'attachments.amx'...
+[12:07:00]   Unable to load filterscript 'attachments.amx'.
+[12:07:00]   Loading filterscript 'skinchanger.amx'...
+[12:07:00]   Unable to load filterscript 'skinchanger.amx'.
+[12:07:00]   Loading filterscript 'vspawner.amx'...
+[12:07:00]   Unable to load filterscript 'vspawner.amx'.
+[12:07:00]   Loading filterscript 'ls_mall.amx'...
+[12:07:00]   Unable to load filterscript 'ls_mall.amx'.
+[12:07:00]   Loading filterscript 'ls_beachside.amx'...
+[12:07:00]   Unable to load filterscript 'ls_beachside.amx'.
+[12:07:00]   Loaded 0 filterscripts.
+
+[12:07:00] Loaded 3 vehicles from: vehicles/trains.txt
+[12:07:00] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:07:00] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:07:00] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:07:00] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:07:00] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:07:00] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:07:00] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:07:00] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:07:00] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:07:00] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:07:00] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:07:00] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:07:00] Loaded 168 vehicles from: vehicles/bone.txt
+[12:07:00] Loaded 61 vehicles from: vehicles/flint.txt
+[12:07:00] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:07:00] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:07:00] Total vehicles from files: 1781
+[12:07:00] 
+---------------------------------------
+[12:07:00] Running Grand Larceny - by the SA-MP team
+
+[12:07:00] ---------------------------------------
+
+[12:07:00] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:07:42] 
+[12:07:42] Server Plugins
+[12:07:42] --------------
+[12:07:42]  Loading plugin: mysql.dll
+[12:07:42]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:07:42]   Loaded.
+[12:07:42]  Loading plugin: sscanf.dll
+[12:07:42] [MySQL] Thread running. Threadsafe: Yes.
+[12:07:42] 
+
+[12:07:42]  ===============================
+
+[12:07:42]       sscanf plugin loaded.     
+
+[12:07:42]          Version:  2.8.1        
+
+[12:07:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:07:42]  ===============================
+
+[12:07:42]   Loaded.
+[12:07:42]  Loading plugin: streamer.dll
+[12:07:42] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:07:42]   Loaded.
+[12:07:42]  Loaded 3 plugins.
+
+[12:07:42] 
+[12:07:42] Filterscripts
+[12:07:42] ---------------
+[12:07:42]   Loading filterscript 'gl_actions.amx'...
+[12:07:42]   Unable to load filterscript 'gl_actions.amx'.
+[12:07:42]   Loading filterscript 'gl_realtime.amx'...
+[12:07:42]   Unable to load filterscript 'gl_realtime.amx'.
+[12:07:42]   Loading filterscript 'gl_property.amx'...
+[12:07:42]   Unable to load filterscript 'gl_property.amx'.
+[12:07:42]   Loading filterscript 'gl_mapicon.amx'...
+[12:07:42]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:07:42]   Loading filterscript 'ls_elevator.amx'...
+[12:07:42]   Unable to load filterscript 'ls_elevator.amx'.
+[12:07:42]   Loading filterscript 'attachments.amx'...
+[12:07:42]   Unable to load filterscript 'attachments.amx'.
+[12:07:42]   Loading filterscript 'skinchanger.amx'...
+[12:07:42]   Unable to load filterscript 'skinchanger.amx'.
+[12:07:42]   Loading filterscript 'vspawner.amx'...
+[12:07:42]   Unable to load filterscript 'vspawner.amx'.
+[12:07:42]   Loading filterscript 'ls_mall.amx'...
+[12:07:42]   Unable to load filterscript 'ls_mall.amx'.
+[12:07:42]   Loading filterscript 'ls_beachside.amx'...
+[12:07:42]   Unable to load filterscript 'ls_beachside.amx'.
+[12:07:42]   Loaded 0 filterscripts.
+
+[12:07:42] Loaded 3 vehicles from: vehicles/trains.txt
+[12:07:42] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:07:42] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:07:42] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:07:42] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:07:42] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:07:42] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:07:42] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:07:42] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:07:42] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:07:42] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:07:42] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:07:42] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:07:42] Loaded 168 vehicles from: vehicles/bone.txt
+[12:07:42] Loaded 61 vehicles from: vehicles/flint.txt
+[12:07:42] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:07:42] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:07:42] Total vehicles from files: 1781
+[12:07:42] 
+---------------------------------------
+[12:07:42] Running Grand Larceny - by the SA-MP team
+
+[12:07:42] ---------------------------------------
+
+[12:07:42] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:13:36] 
+[12:13:36] Server Plugins
+[12:13:36] --------------
+[12:13:36]  Loading plugin: mysql.dll
+[12:13:36]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:13:36]   Loaded.
+[12:13:36]  Loaded 1 plugins.
+
+[12:13:36] [MySQL] Thread running. Threadsafe: Yes.
+[12:13:36] I couldn't load any gamemode scripts. Please verify your server.cfg
+[12:13:36] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:17:28] 
+[12:17:28] Server Plugins
+[12:17:28] --------------
+[12:17:28]  Loading plugin: mysql.dll
+[12:17:28]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:17:28]   Loaded.
+[12:17:28]  Loaded 1 plugins.
+
+[12:17:28] [MySQL] Thread running. Threadsafe: Yes.
+[12:17:28] 
+[12:17:28] Filterscripts
+[12:17:28] ---------------
+[12:17:28]   Loading filterscript 'gl_actions.amx'...
+[12:17:28]   Unable to load filterscript 'gl_actions.amx'.
+[12:17:28]   Loading filterscript 'gl_realtime.amx'...
+[12:17:28]   Unable to load filterscript 'gl_realtime.amx'.
+[12:17:28]   Loading filterscript 'gl_property.amx'...
+[12:17:28]   Unable to load filterscript 'gl_property.amx'.
+[12:17:28]   Loading filterscript 'gl_mapicon.amx'...
+[12:17:28]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:17:28]   Loading filterscript 'ls_elevator.amx'...
+[12:17:28]   Unable to load filterscript 'ls_elevator.amx'.
+[12:17:28]   Loading filterscript 'attachments.amx'...
+[12:17:28]   Unable to load filterscript 'attachments.amx'.
+[12:17:28]   Loading filterscript 'skinchanger.amx'...
+[12:17:28]   Unable to load filterscript 'skinchanger.amx'.
+[12:17:28]   Loading filterscript 'vspawner.amx'...
+[12:17:28]   Unable to load filterscript 'vspawner.amx'.
+[12:17:28]   Loading filterscript 'ls_mall.amx'...
+[12:17:28]   Unable to load filterscript 'ls_mall.amx'.
+[12:17:28]   Loading filterscript 'ls_beachside.amx'...
+[12:17:28]   Unable to load filterscript 'ls_beachside.amx'.
+[12:17:28]   Loaded 0 filterscripts.
+
+[12:17:28] Script[gamemodes/opendm.amx]: Run time error 19: "File or function is not found"
+[12:17:28] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:18:07] 
+[12:18:07] Server Plugins
+[12:18:07] --------------
+[12:18:07]  Loading plugin: mysql.dll
+[12:18:07]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:18:07]   Loaded.
+[12:18:07]  Loading plugin: sscanf.dll
+[12:18:07] [MySQL] Thread running. Threadsafe: Yes.
+[12:18:07] 
+
+[12:18:07]  ===============================
+
+[12:18:07]       sscanf plugin loaded.     
+
+[12:18:07]          Version:  2.8.1        
+
+[12:18:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:18:07]  ===============================
+
+[12:18:07]   Loaded.
+[12:18:07]  Loading plugin: streamer.dll
+[12:18:07] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:18:07]   Loaded.
+[12:18:07]  Loaded 3 plugins.
+
+[12:18:07] 
+[12:18:07] Filterscripts
+[12:18:07] ---------------
+[12:18:07]   Loading filterscript 'gl_actions.amx'...
+[12:18:07]   Unable to load filterscript 'gl_actions.amx'.
+[12:18:07]   Loading filterscript 'gl_realtime.amx'...
+[12:18:07]   Unable to load filterscript 'gl_realtime.amx'.
+[12:18:07]   Loading filterscript 'gl_property.amx'...
+[12:18:07]   Unable to load filterscript 'gl_property.amx'.
+[12:18:07]   Loading filterscript 'gl_mapicon.amx'...
+[12:18:07]   Unable to load filterscript 'gl_mapicon.amx'.
+[12:18:07]   Loading filterscript 'ls_elevator.amx'...
+[12:18:07]   Unable to load filterscript 'ls_elevator.amx'.
+[12:18:07]   Loading filterscript 'attachments.amx'...
+[12:18:07]   Unable to load filterscript 'attachments.amx'.
+[12:18:07]   Loading filterscript 'skinchanger.amx'...
+[12:18:07]   Unable to load filterscript 'skinchanger.amx'.
+[12:18:07]   Loading filterscript 'vspawner.amx'...
+[12:18:07]   Unable to load filterscript 'vspawner.amx'.
+[12:18:07]   Loading filterscript 'ls_mall.amx'...
+[12:18:07]   Unable to load filterscript 'ls_mall.amx'.
+[12:18:07]   Loading filterscript 'ls_beachside.amx'...
+[12:18:07]   Unable to load filterscript 'ls_beachside.amx'.
+[12:18:07]   Loaded 0 filterscripts.
+
+[12:18:07] Script[gamemodes/opendm.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[12:18:07] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:18:21] 
+[12:18:21] Server Plugins
+[12:18:21] --------------
+[12:18:21]  Loading plugin: mysql.dll
+[12:18:21]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:18:21]   Loaded.
+[12:18:21]  Loading plugin: sscanf.dll
+[12:18:21] [MySQL] Thread running. Threadsafe: Yes.
+[12:18:21] 
+
+[12:18:21]  ===============================
+
+[12:18:21]       sscanf plugin loaded.     
+
+[12:18:21]          Version:  2.8.1        
+
+[12:18:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:18:21]  ===============================
+
+[12:18:21]   Loaded.
+[12:18:21]  Loading plugin: streamer.dll
+[12:18:21] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:18:21]   Loaded.
+[12:18:21]  Loaded 3 plugins.
+
+[12:18:21] 
+[12:18:21] Filterscripts
+[12:18:21] ---------------
+[12:18:21]   Loaded 0 filterscripts.
+
+[12:18:21] Script[gamemodes/opendm.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[12:18:21] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:18:50] 
+[12:18:50] Server Plugins
+[12:18:50] --------------
+[12:18:50]  Loading plugin: mysql.dll
+[12:18:50]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:18:50]   Loaded.
+[12:18:50]  Loading plugin: sscanf.dll
+[12:18:50] [MySQL] Thread running. Threadsafe: Yes.
+[12:18:50] 
+
+[12:18:50]  ===============================
+
+[12:18:50]       sscanf plugin loaded.     
+
+[12:18:50]          Version:  2.8.1        
+
+[12:18:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:18:50]  ===============================
+
+[12:18:50]   Loaded.
+[12:18:50]  Loading plugin: streamer.dll
+[12:18:50] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:18:50]   Loaded.
+[12:18:50]  Loaded 3 plugins.
+
+[12:18:50] 
+[12:18:50] Filterscripts
+[12:18:50] ---------------
+[12:18:50]   Loaded 0 filterscripts.
+
+[12:18:50] Script[gamemodes/opendm.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[12:18:50] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:19:26] 
+[12:19:26] Server Plugins
+[12:19:26] --------------
+[12:19:26]  Loading plugin: mysql.dll
+[12:19:26]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:19:26]   Loaded.
+[12:19:26]  Loading plugin: sscanf.dll
+[12:19:26] [MySQL] Thread running. Threadsafe: Yes.
+[12:19:26] 
+
+[12:19:26]  ===============================
+
+[12:19:26]       sscanf plugin loaded.     
+
+[12:19:26]          Version:  2.8.1        
+
+[12:19:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:19:26]  ===============================
+
+[12:19:26]   Loaded.
+[12:19:26]  Loading plugin: streamer.dll
+[12:19:26] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:19:26]   Loaded.
+[12:19:26]  Loaded 3 plugins.
+
+[12:19:26] 
+[12:19:26] Filterscripts
+[12:19:26] ---------------
+[12:19:26]   Loaded 0 filterscripts.
+
+[12:19:26] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:23:17] 
+[12:23:17] Server Plugins
+[12:23:17] --------------
+[12:23:17]  Loading plugin: mysql.dll
+[12:23:17]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:23:17]   Loaded.
+[12:23:17]  Loading plugin: sscanf.dll
+[12:23:17] [MySQL] Thread running. Threadsafe: Yes.
+[12:23:17] 
+
+[12:23:17]  ===============================
+
+[12:23:17]       sscanf plugin loaded.     
+
+[12:23:17]          Version:  2.8.1        
+
+[12:23:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:23:17]  ===============================
+
+[12:23:17]   Loaded.
+[12:23:17]  Loading plugin: streamer.dll
+[12:23:17] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:23:17]   Loaded.
+[12:23:17]  Loaded 3 plugins.
+
+[12:23:17] 
+[12:23:17] Filterscripts
+[12:23:17] ---------------
+[12:23:17]   Loaded 0 filterscripts.
+
+[12:23:17] Za³adowano pomyœlnie.
+[12:23:17] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:24:04] 
+[12:24:04] Server Plugins
+[12:24:04] --------------
+[12:24:04]  Loading plugin: mysql.dll
+[12:24:04]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:24:04]   Loaded.
+[12:24:04]  Loading plugin: sscanf.dll
+[12:24:04] [MySQL] Thread running. Threadsafe: Yes.
+[12:24:04] 
+
+[12:24:04]  ===============================
+
+[12:24:04]       sscanf plugin loaded.     
+
+[12:24:04]          Version:  2.8.1        
+
+[12:24:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:24:04]  ===============================
+
+[12:24:04]   Loaded.
+[12:24:04]  Loading plugin: streamer.dll
+[12:24:04] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:24:04]   Loaded.
+[12:24:04]  Loaded 3 plugins.
+
+[12:24:04] 
+[12:24:04] Filterscripts
+[12:24:04] ---------------
+[12:24:04]   Loaded 0 filterscripts.
+
+[12:24:04] [OpenDM v0.1] Za³adowano pomyœlnie.
+[12:24:04] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:25:11] 
+[12:25:11] Server Plugins
+[12:25:11] --------------
+[12:25:11]  Loading plugin: mysql.dll
+[12:25:11]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:25:11]   Loaded.
+[12:25:11]  Loading plugin: sscanf.dll
+[12:25:11] [MySQL] Thread running. Threadsafe: Yes.
+[12:25:11] 
+
+[12:25:11]  ===============================
+
+[12:25:11]       sscanf plugin loaded.     
+
+[12:25:11]          Version:  2.8.1        
+
+[12:25:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:25:11]  ===============================
+
+[12:25:11]   Loaded.
+[12:25:11]  Loading plugin: streamer.dll
+[12:25:11] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:25:11]   Loaded.
+[12:25:11]  Loaded 3 plugins.
+
+[12:25:11] 
+[12:25:11] Filterscripts
+[12:25:11] ---------------
+[12:25:11]   Loaded 0 filterscripts.
+
+[12:25:11] [OpenDM v0.1] Za³adowano pomyœlnie.
+[12:25:11] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:26:10] 
+[12:26:10] Server Plugins
+[12:26:10] --------------
+[12:26:10]  Loading plugin: mysql.dll
+[12:26:10]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:26:10]   Loaded.
+[12:26:10]  Loading plugin: sscanf.dll
+[12:26:10] [MySQL] Thread running. Threadsafe: Yes.
+[12:26:10] 
+
+[12:26:10]  ===============================
+
+[12:26:10]       sscanf plugin loaded.     
+
+[12:26:10]          Version:  2.8.1        
+
+[12:26:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:26:10]  ===============================
+
+[12:26:10]   Loaded.
+[12:26:10]  Loading plugin: streamer.dll
+[12:26:10] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:26:10]   Loaded.
+[12:26:10]  Loaded 3 plugins.
+
+[12:26:10] 
+[12:26:10] Filterscripts
+[12:26:10] ---------------
+[12:26:10]   Loaded 0 filterscripts.
+
+[12:26:10] [OpenDM v0.1] Za³adowano pomyœlnie.
+[12:26:10] Number of vehicle models: 0
+[12:26:33] [connection] 127.0.0.1:60517 requests connection cookie.
+[12:26:34] [connection] incoming connection: 127.0.0.1:60517 id: 0
+[12:26:34] [join] critical has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:31:30] 
+[12:31:30] Server Plugins
+[12:31:30] --------------
+[12:31:30]  Loading plugin: mysql.dll
+[12:31:30]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:31:30]   Loaded.
+[12:31:30]  Loading plugin: sscanf.dll
+[12:31:30] [MySQL] Thread running. Threadsafe: Yes.
+[12:31:30] 
+
+[12:31:30]  ===============================
+
+[12:31:30]       sscanf plugin loaded.     
+
+[12:31:30]          Version:  2.8.1        
+
+[12:31:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:31:30]  ===============================
+
+[12:31:30]   Loaded.
+[12:31:30]  Loading plugin: streamer.dll
+[12:31:30] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:31:30]   Loaded.
+[12:31:30]  Loaded 3 plugins.
+
+[12:31:30] 
+[12:31:30] Filterscripts
+[12:31:30] ---------------
+[12:31:30]   Loaded 0 filterscripts.
+
+[12:31:31] [OpenDM v0.1] Error: No MySQL connection. Exiting...
+[12:31:31] [OpenDM v0.1] Loading completed.
+[12:31:31] Number of vehicle models: 0
+[12:31:31] --- Server Shutting Down.
+[12:31:31]  SA:MP MySQL Plugin v2.1.1 Unloaded.
+[12:31:31] 
+
+[12:31:31]  ===============================
+
+[12:31:31]      sscanf plugin unloaded.    
+
+[12:31:31]  ===============================
+
+[12:31:31] 
+
+*** Streamer Plugin v2.6.1 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:44:26] 
+[12:44:26] Server Plugins
+[12:44:26] --------------
+[12:44:26]  Loading plugin: mysql.dll
+[12:44:26]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:44:26]   Loaded.
+[12:44:26]  Loading plugin: sscanf.dll
+[12:44:26] [MySQL] Thread running. Threadsafe: Yes.
+[12:44:26] 
+
+[12:44:26]  ===============================
+
+[12:44:26]       sscanf plugin loaded.     
+
+[12:44:26]          Version:  2.8.1        
+
+[12:44:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:44:26]  ===============================
+
+[12:44:26]   Loaded.
+[12:44:26]  Loading plugin: streamer.dll
+[12:44:26] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:44:26]   Loaded.
+[12:44:26]  Loaded 3 plugins.
+
+[12:44:26] 
+[12:44:26] Filterscripts
+[12:44:26] ---------------
+[12:44:26]   Loaded 0 filterscripts.
+
+[12:44:27] [OpenDM v0.1] Error: No MySQL connection. Exiting...
+[12:44:27] [OpenDM v0.1] Loading completed.
+[12:44:27] Number of vehicle models: 0
+[12:44:27] --- Server Shutting Down.
+[12:44:27]  SA:MP MySQL Plugin v2.1.1 Unloaded.
+[12:44:27] 
+
+[12:44:27]  ===============================
+
+[12:44:27]      sscanf plugin unloaded.    
+
+[12:44:27]  ===============================
+
+[12:44:27] 
+
+*** Streamer Plugin v2.6.1 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:44:51] 
+[12:44:51] Server Plugins
+[12:44:51] --------------
+[12:44:51]  Loading plugin: mysql.dll
+[12:44:51]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:44:51]   Loaded.
+[12:44:51]  Loading plugin: sscanf.dll
+[12:44:51] [MySQL] Thread running. Threadsafe: Yes.
+[12:44:51] 
+
+[12:44:51]  ===============================
+
+[12:44:51]       sscanf plugin loaded.     
+
+[12:44:51]          Version:  2.8.1        
+
+[12:44:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:44:51]  ===============================
+
+[12:44:51]   Loaded.
+[12:44:51]  Loading plugin: streamer.dll
+[12:44:51] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:44:51]   Loaded.
+[12:44:51]  Loaded 3 plugins.
+
+[12:44:51] 
+[12:44:51] Filterscripts
+[12:44:51] ---------------
+[12:44:51]   Loaded 0 filterscripts.
+
+[12:44:51] [OpenDM v0.1] Error: No MySQL connection. Exiting...
+[12:44:51] [OpenDM v0.1] Loading completed.
+[12:44:51] Number of vehicle models: 0
+[12:44:51] --- Server Shutting Down.
+[12:44:51]  SA:MP MySQL Plugin v2.1.1 Unloaded.
+[12:44:51] 
+
+[12:44:51]  ===============================
+
+[12:44:51]      sscanf plugin unloaded.    
+
+[12:44:51]  ===============================
+
+[12:44:51] 
+
+*** Streamer Plugin v2.6.1 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:46:56] 
+[12:46:56] Server Plugins
+[12:46:56] --------------
+[12:46:56]  Loading plugin: mysql.dll
+[12:46:56]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:46:56]   Loaded.
+[12:46:56]  Loading plugin: sscanf.dll
+[12:46:56] 
+
+[12:46:56] [MySQL] Thread running. Threadsafe: Yes.
+[12:46:56]  ===============================
+
+[12:46:56]       sscanf plugin loaded.     
+
+[12:46:56]          Version:  2.8.1        
+
+[12:46:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:46:56]  ===============================
+
+[12:46:56]   Loaded.
+[12:46:56]  Loading plugin: streamer.dll
+[12:46:56] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:46:56]   Loaded.
+[12:46:56]  Loaded 3 plugins.
+
+[12:46:56] 
+[12:46:56] Filterscripts
+[12:46:56] ---------------
+[12:46:56]   Loaded 0 filterscripts.
+
+[12:46:56] [OpenDM v0.1] Error: No MySQL connection. Exiting...
+[12:46:56] [OpenDM v0.1] Loading completed.
+[12:46:56] Number of vehicle models: 0
+[12:46:56] --- Server Shutting Down.
+[12:46:56]  SA:MP MySQL Plugin v2.1.1 Unloaded.
+[12:46:56] 
+
+[12:46:56]  ===============================
+
+[12:46:56]      sscanf plugin unloaded.    
+
+[12:46:56]  ===============================
+
+[12:46:56] 
+
+*** Streamer Plugin v2.6.1 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:49:38] 
+[12:49:38] Server Plugins
+[12:49:38] --------------
+[12:49:38]  Loading plugin: mysql.dll
+[12:49:38]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[12:49:38]   Loaded.
+[12:49:38]  Loading plugin: sscanf.dll
+[12:49:38] [MySQL] Thread running. Threadsafe: Yes.
+[12:49:38] 
+
+[12:49:38]  ===============================
+
+[12:49:38]       sscanf plugin loaded.     
+
+[12:49:38]          Version:  2.8.1        
+
+[12:49:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:49:38]  ===============================
+
+[12:49:38]   Loaded.
+[12:49:38]  Loading plugin: streamer.dll
+[12:49:38] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[12:49:38]   Loaded.
+[12:49:38]  Loaded 3 plugins.
+
+[12:49:39] 
+[12:49:39] Filterscripts
+[12:49:39] ---------------
+[12:49:39]   Loaded 0 filterscripts.
+
+[12:49:39] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[12:49:39] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[12:49:39] [OpenDM v0.1] Loading completed.
+[12:49:39] Number of vehicle models: 0
+[12:50:22] [connection] 127.0.0.1:57959 requests connection cookie.
+[12:50:23] [connection] incoming connection: 127.0.0.1:57959 id: 0
+[12:50:23] [join] critical has joined the server (0:127.0.0.1)
+[12:51:26] [connection] 127.0.0.1:60163 requests connection cookie.
+[12:51:27] [connection] incoming connection: 127.0.0.1:60163 id: 1
+[12:51:31] [connection] incoming connection: 127.0.0.1:60164 id: 1
+[12:51:39] [part] critical has left the server (0:0)
+[12:51:55] [connection] 127.0.0.1:49187 requests connection cookie.
+[12:51:56] [connection] incoming connection: 127.0.0.1:49187 id: 0
+[12:51:56] [join] critical has joined the server (0:127.0.0.1)
+[12:52:18] [part] critical has left the server (0:1)
+[12:53:32] [connection] 127.0.0.1:55346 requests connection cookie.
+[12:53:33] [connection] incoming connection: 127.0.0.1:55346 id: 0
+[12:53:41] [join] critical has joined the server (0:127.0.0.1)
+[12:54:39] [part] critical has left the server (0:0)
+[12:54:59] [connection] 127.0.0.1:50082 requests connection cookie.
+[12:55:00] [connection] incoming connection: 127.0.0.1:50082 id: 0
+[12:55:48] [connection] incoming connection: 127.0.0.1:59808 id: 0
+[12:55:48] [join] critical has joined the server (0:127.0.0.1)
+[12:58:39] [part] critical has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:11:53] 
+[13:11:53] Server Plugins
+[13:11:53] --------------
+[13:11:53]  Loading plugin: mysql.dll
+[13:11:53]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[13:11:53]   Loaded.
+[13:11:53]  Loading plugin: sscanf.dll
+[13:11:53] [MySQL] Thread running. Threadsafe: Yes.
+[13:11:53] 
+
+[13:11:53]  ===============================
+
+[13:11:53]       sscanf plugin loaded.     
+
+[13:11:53]          Version:  2.8.1        
+
+[13:11:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:11:53]  ===============================
+
+[13:11:53]   Loaded.
+[13:11:53]  Loading plugin: streamer.dll
+[13:11:53] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[13:11:53]   Loaded.
+[13:11:53]  Loaded 3 plugins.
+
+[13:11:53] 
+[13:11:53] Filterscripts
+[13:11:53] ---------------
+[13:11:53]   Loaded 0 filterscripts.
+
+[13:11:53] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:11:53] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:11:53] [OpenDM v0.1] Loading completed.
+[13:11:53] Number of vehicle models: 0
+[13:12:15] [connection] 127.0.0.1:59149 requests connection cookie.
+[13:12:16] [connection] incoming connection: 127.0.0.1:59149 id: 0
+[13:12:17] [join] critical has joined the server (0:127.0.0.1)
+[13:13:20] RCON (In-Game): Player #0 (critical) has logged in.
+[13:19:07] RCON (In-Game): Player [critical] sent command: gmx
+[13:19:19] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:19:19] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:19:19] [OpenDM v0.1] Loading completed.
+[13:19:19] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:36:33] 
+[13:36:33] Server Plugins
+[13:36:33] --------------
+[13:36:33]  Loading plugin: mysql.dll
+[13:36:33]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[13:36:33]   Loaded.
+[13:36:33]  Loading plugin: sscanf.dll
+[13:36:33] [MySQL] Thread running. Threadsafe: Yes.
+[13:36:33] 
+
+[13:36:33]  ===============================
+
+[13:36:33]       sscanf plugin loaded.     
+
+[13:36:33]          Version:  2.8.1        
+
+[13:36:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:36:33]  ===============================
+
+[13:36:33]   Loaded.
+[13:36:33]  Loading plugin: streamer.dll
+[13:36:33] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[13:36:33]   Loaded.
+[13:36:33]  Loaded 3 plugins.
+
+[13:36:33] 
+[13:36:33] Filterscripts
+[13:36:33] ---------------
+[13:36:33]   Loaded 0 filterscripts.
+
+[13:36:33] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:36:33] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:36:33] [OpenDM v0.1] Loading completed.
+[13:36:33] Number of vehicle models: 0
+[13:36:39] [connection] 127.0.0.1:54330 requests connection cookie.
+[13:36:40] [connection] incoming connection: 127.0.0.1:54330 id: 0
+[13:36:41] [join] critical has joined the server (0:127.0.0.1)
+[13:44:10] RCON (In-Game): Player #0 (critical) has logged in.
+[13:44:12] RCON (In-Game): Player [critical] sent command: gmx
+[13:44:24] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:44:24] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:44:24] [OpenDM v0.1] Loading completed.
+[13:44:24] Number of vehicle models: 0
+[13:46:22] RCON (In-Game): Player [critical] sent command: gmx
+[13:46:34] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:46:34] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:46:34] [OpenDM v0.1] Loading completed.
+[13:46:34] Number of vehicle models: 0
+[13:56:25] RCON (In-Game): Player [critical] sent command: gmx
+[13:56:37] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:56:37] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:56:37] [OpenDM v0.1] Loading completed.
+[13:56:37] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:57:13] 
+[13:57:13] Server Plugins
+[13:57:13] --------------
+[13:57:13]  Loading plugin: mysql.dll
+[13:57:13]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[13:57:13]   Loaded.
+[13:57:13]  Loading plugin: sscanf.dll
+[13:57:13] [MySQL] Thread running. Threadsafe: Yes.
+[13:57:13] 
+
+[13:57:13]  ===============================
+
+[13:57:13]       sscanf plugin loaded.     
+
+[13:57:13]          Version:  2.8.1        
+
+[13:57:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:57:13]  ===============================
+
+[13:57:13]   Loaded.
+[13:57:13]  Loading plugin: streamer.dll
+[13:57:13] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[13:57:13]   Loaded.
+[13:57:13]  Loaded 3 plugins.
+
+[13:57:13] 
+[13:57:13] Filterscripts
+[13:57:13] ---------------
+[13:57:13]   Loaded 0 filterscripts.
+
+[13:57:13] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:57:13] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:57:13] [OpenDM v0.1] Loading completed.
+[13:57:13] Number of vehicle models: 0
+[13:57:24] [connection] 127.0.0.1:55391 requests connection cookie.
+[13:57:25] [connection] incoming connection: 127.0.0.1:55391 id: 0
+[13:57:25] [join] critical has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:57:41] 
+[13:57:41] Server Plugins
+[13:57:41] --------------
+[13:57:41]  Loading plugin: mysql.dll
+[13:57:41]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[13:57:41]   Loaded.
+[13:57:41]  Loading plugin: sscanf.dll
+[13:57:41] [MySQL] Thread running. Threadsafe: Yes.
+[13:57:41] 
+
+[13:57:41]  ===============================
+
+[13:57:41]       sscanf plugin loaded.     
+
+[13:57:41]          Version:  2.8.1        
+
+[13:57:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:57:41]  ===============================
+
+[13:57:41]   Loaded.
+[13:57:41]  Loading plugin: streamer.dll
+[13:57:41] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[13:57:41]   Loaded.
+[13:57:41]  Loaded 3 plugins.
+
+[13:57:41] 
+[13:57:41] Filterscripts
+[13:57:41] ---------------
+[13:57:41]   Loaded 0 filterscripts.
+
+[13:57:41] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:57:41] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:57:41] [OpenDM v0.1] Loading completed.
+[13:57:41] Number of vehicle models: 0
+[13:57:49] [connection] 127.0.0.1:59244 requests connection cookie.
+[13:57:50] [connection] incoming connection: 127.0.0.1:59244 id: 0
+[13:57:50] [join] critical has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:58:35] 
+[13:58:35] Server Plugins
+[13:58:35] --------------
+[13:58:35]  Loading plugin: mysql.dll
+[13:58:35]  SA:MP MySQL Plugin v2.1.1 Loaded.
+[13:58:35]   Loaded.
+[13:58:35]  Loading plugin: sscanf.dll
+[13:58:35] [MySQL] Thread running. Threadsafe: Yes.
+[13:58:35] 
+
+[13:58:35]  ===============================
+
+[13:58:35]       sscanf plugin loaded.     
+
+[13:58:35]          Version:  2.8.1        
+
+[13:58:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:58:35]  ===============================
+
+[13:58:35]   Loaded.
+[13:58:35]  Loading plugin: streamer.dll
+[13:58:35] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[13:58:35]   Loaded.
+[13:58:35]  Loaded 3 plugins.
+
+[13:58:35] 
+[13:58:35] Filterscripts
+[13:58:35] ---------------
+[13:58:35]   Loaded 0 filterscripts.
+
+[13:58:35] [MySQL] Connected (0) to 'root'@'127.0.0.1 via TCP/IP'.
+[13:58:35] [MySQL] Server Version 5.5.5-10.1.22-MariaDB.
+[13:58:35] [OpenDM v0.1] Loading completed.
+[13:58:35] Number of vehicle models: 0
+[13:58:52] [connection] 127.0.0.1:50578 requests connection cookie.
+[13:58:53] [connection] incoming connection: 127.0.0.1:50578 id: 0
+[13:58:53] [join] critical has joined the server (0:127.0.0.1)
+[13:59:25] [part] critical has left the server (0:1)
