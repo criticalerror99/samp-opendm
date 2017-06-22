@@ -12,3 +12,7 @@ enum PLAYERS {
 new Player[MAX_PLAYERS][PLAYERS];
 
 new bool:informed[MAX_PLAYERS];
+new bool:firstspawn[MAX_PLAYERS];
+
+new lastminute;
+new players, premiums, admins;
