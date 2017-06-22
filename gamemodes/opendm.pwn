@@ -6,6 +6,13 @@
 #include <md5>
 #include <y_va>
 
+#define L(%0,%1) for(new %0, __li%0 = %1; %0 != __li%0; %0++)
+
+#define GM_NAME	"OpenDM"
+#define GM_VERSION	"v0.1"
+#define GM_AUTHOR "critical"
+#define WEBSITE "cr.ct8.pl"
+
 enum {
 	DIALOG_LANGUAGE,
 	DIALOG_LOGIN,
@@ -15,10 +22,10 @@ enum {
 #include OpenDM\colors.inc
 #include OpenDM\var.inc
 #include OpenDM\cmds.inc
+#include OpenDM\td.inc
 
-#define GM_NAME	"OpenDM"
-#define GM_VERSION	"v0.1"
-#define GM_AUTHOR "critical"
+#undef MAX_PLAYERS
+#define MAX_PLAYERS 50 // slots on server, change this
 
 // MySQL Database
 #define HOST "127.0.0.1"
@@ -41,6 +48,22 @@ m_query(string[], {Float, _}:...)
 	return mysql_query(string);
 }
 
+forward Second();
+public Second() {
+	L(playerid, MAX_PLAYERS) {
+		new score[64];
+		format(score, sizeof(score), "%d~n~~p~SCORE", Player[playerid][Score]);
+		PlayerTextDrawSetString(playerid, TextdrawP[1][playerid], score);
+	}
+	new year, month, day, hour, minute, second;
+	getdate(year, month, day);
+	gettime(hour, minute, second);
+	if(minute != lastminute) {
+		new date[128];
+		format(date, sizeof(date), "~w~~h~%02d~g~~h~:~w~~h~%02d %02d~g~~h~.~w~~h~%02d~g~~h~.~w~~h~%d", hour, minute, day, month, year);
+		TextDrawSetString(Textdraw[1], date); }
+}
+
 public OnGameModeInit()
 {
 	mysql_init(LOG_ONLY_ERRORS, 0);
@@ -54,6 +77,15 @@ public OnGameModeInit()
 	SendRconCommand("OpenDM "GM_VERSION"");
 	SendRconCommand("mapname "GM_VERSION"");
 	SetGameModeText("OpenDM "GM_VERSION"");
+
+	players = 0;
+	premiums = 0;
+	admins = 0;
+
+	LoadGlobalTDs();
+
+	SetTimer("Second", 1000, 1);
+
 	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
 	printf("["GM_NAME" "GM_VERSION"] Loading completed.");
 	return 1;
@@ -76,6 +108,7 @@ forward SetPlayerVars(playerid);
 public SetPlayerVars(playerid) {
 	Player[playerid][IsPL] = false;
 	Player[playerid][logged] = false;
+	firstspawn[playerid] = true;
 }
 
 forward ShowLogin(playerid);
@@ -109,7 +142,12 @@ public ShowDialog(playerid, dialogid, style, captionen[], captionpl[], infoen[],
 
 public OnPlayerConnect(playerid)
 {
+	players++;
+	new ptd[128];
+	format(ptd, sizeof(ptd), "%d~n~~g~~h~PLAYERS", players);
+	TextDrawSetString(Textdraw[5], ptd);
 	SetPlayerVars(playerid);
+	CreatePlayerTDs(playerid);
 
 	new name[20], ip[16];
 	GetPlayerName(playerid, name, sizeof(name));
@@ -117,6 +155,11 @@ public OnPlayerConnect(playerid)
 
 	format(Player[playerid][Name], 20, "%s", name);
 	format(Player[playerid][IP], 16, "%s", ip);
+
+	new nametd[64];
+	format(nametd, sizeof(nametd), "%s (%d)", Player[playerid][Name], playerid);
+	PlayerTextDrawSetString(playerid, TextdrawP[0][playerid], nametd);
+
 	new checkaccount[1024];
 	m_query("SELECT userid FROM players WHERE name = '%s'", name);
 	mysql_store_result();
@@ -254,11 +297,24 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 public OnPlayerDisconnect(playerid, reason)
 {
+	players--;
+	new ptd[128], prtd[128], atd[128];
+	format(ptd, sizeof(ptd), "%d~n~~g~~h~PLAYERS", players);
+	format(prtd, sizeof(prtd), "%d~n~~y~~h~PREMIUM", premiums);
+	format(atd, sizeof(atd), "%d~n~~r~~h~ADMINS", admins);
+	TextDrawSetString(Textdraw[5], ptd);
+	TextDrawSetString(Textdraw[6], prtd);
+	TextDrawSetString(Textdraw[7], atd);
 	return 1;
 }
 
 public OnPlayerSpawn(playerid)
 {
+	if(firstspawn[playerid]) {
+		L(textdrawid, 9) TextDrawShowForPlayer(playerid, Textdraw[textdrawid]);
+		L(textdrawid, 3) PlayerTextDrawShow(playerid, TextdrawP[textdrawid][playerid]);
+		firstspawn[playerid] = false;
+	}
 	return 1;
 }
 
